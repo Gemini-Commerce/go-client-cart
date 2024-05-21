@@ -69,8 +69,8 @@ func (o *CartCustomerData) GetCustomerGrnOk() (*string, bool) {
 	return o.CustomerGrn, true
 }
 
-// HasCustomerGrn returns a boolean if a field has been set.
-func (o *CartCustomerData) HasCustomerGrn() bool {
+// IsSetCustomerGrn returns a boolean if a field has been set.
+func (o *CartCustomerData) IsSetCustomerGrn() bool {
 	if o != nil && !IsNil(o.CustomerGrn) {
 		return true
 	}
@@ -101,8 +101,8 @@ func (o *CartCustomerData) GetFirstnameOk() (*string, bool) {
 	return o.Firstname, true
 }
 
-// HasFirstname returns a boolean if a field has been set.
-func (o *CartCustomerData) HasFirstname() bool {
+// IsSetFirstname returns a boolean if a field has been set.
+func (o *CartCustomerData) IsSetFirstname() bool {
 	if o != nil && !IsNil(o.Firstname) {
 		return true
 	}
@@ -133,8 +133,8 @@ func (o *CartCustomerData) GetLastnameOk() (*string, bool) {
 	return o.Lastname, true
 }
 
-// HasLastname returns a boolean if a field has been set.
-func (o *CartCustomerData) HasLastname() bool {
+// IsSetLastname returns a boolean if a field has been set.
+func (o *CartCustomerData) IsSetLastname() bool {
 	if o != nil && !IsNil(o.Lastname) {
 		return true
 	}
@@ -165,8 +165,8 @@ func (o *CartCustomerData) GetEmailOk() (*string, bool) {
 	return o.Email, true
 }
 
-// HasEmail returns a boolean if a field has been set.
-func (o *CartCustomerData) HasEmail() bool {
+// IsSetEmail returns a boolean if a field has been set.
+func (o *CartCustomerData) IsSetEmail() bool {
 	if o != nil && !IsNil(o.Email) {
 		return true
 	}
@@ -197,8 +197,8 @@ func (o *CartCustomerData) GetPhoneNumberOk() (*string, bool) {
 	return o.PhoneNumber, true
 }
 
-// HasPhoneNumber returns a boolean if a field has been set.
-func (o *CartCustomerData) HasPhoneNumber() bool {
+// IsSetPhoneNumber returns a boolean if a field has been set.
+func (o *CartCustomerData) IsSetPhoneNumber() bool {
 	if o != nil && !IsNil(o.PhoneNumber) {
 		return true
 	}
@@ -229,8 +229,8 @@ func (o *CartCustomerData) GetGroupsOk() ([]string, bool) {
 	return o.Groups, true
 }
 
-// HasGroups returns a boolean if a field has been set.
-func (o *CartCustomerData) HasGroups() bool {
+// IsSetGroups returns a boolean if a field has been set.
+func (o *CartCustomerData) IsSetGroups() bool {
 	if o != nil && !IsNil(o.Groups) {
 		return true
 	}
@@ -261,8 +261,8 @@ func (o *CartCustomerData) GetTaxCodeOk() (*string, bool) {
 	return o.TaxCode, true
 }
 
-// HasTaxCode returns a boolean if a field has been set.
-func (o *CartCustomerData) HasTaxCode() bool {
+// IsSetTaxCode returns a boolean if a field has been set.
+func (o *CartCustomerData) IsSetTaxCode() bool {
 	if o != nil && !IsNil(o.TaxCode) {
 		return true
 	}
@@ -293,8 +293,8 @@ func (o *CartCustomerData) GetCertifiedEmailOk() (*string, bool) {
 	return o.CertifiedEmail, true
 }
 
-// HasCertifiedEmail returns a boolean if a field has been set.
-func (o *CartCustomerData) HasCertifiedEmail() bool {
+// IsSetCertifiedEmail returns a boolean if a field has been set.
+func (o *CartCustomerData) IsSetCertifiedEmail() bool {
 	if o != nil && !IsNil(o.CertifiedEmail) {
 		return true
 	}
@@ -325,8 +325,8 @@ func (o *CartCustomerData) GetSdiCodeOk() (*string, bool) {
 	return o.SdiCode, true
 }
 
-// HasSdiCode returns a boolean if a field has been set.
-func (o *CartCustomerData) HasSdiCode() bool {
+// IsSetSdiCode returns a boolean if a field has been set.
+func (o *CartCustomerData) IsSetSdiCode() bool {
 	if o != nil && !IsNil(o.SdiCode) {
 		return true
 	}
@@ -357,8 +357,8 @@ func (o *CartCustomerData) GetFiscalCodeOk() (*string, bool) {
 	return o.FiscalCode, true
 }
 
-// HasFiscalCode returns a boolean if a field has been set.
-func (o *CartCustomerData) HasFiscalCode() bool {
+// IsSetFiscalCode returns a boolean if a field has been set.
+func (o *CartCustomerData) IsSetFiscalCode() bool {
 	if o != nil && !IsNil(o.FiscalCode) {
 		return true
 	}
@@ -389,8 +389,8 @@ func (o *CartCustomerData) GetCompanyNameOk() (*string, bool) {
 	return o.CompanyName, true
 }
 
-// HasCompanyName returns a boolean if a field has been set.
-func (o *CartCustomerData) HasCompanyName() bool {
+// IsSetCompanyName returns a boolean if a field has been set.
+func (o *CartCustomerData) IsSetCompanyName() bool {
 	if o != nil && !IsNil(o.CompanyName) {
 		return true
 	}
@@ -421,8 +421,8 @@ func (o *CartCustomerData) GetAgentGrnOk() (*string, bool) {
 	return o.AgentGrn, true
 }
 
-// HasAgentGrn returns a boolean if a field has been set.
-func (o *CartCustomerData) HasAgentGrn() bool {
+// IsSetAgentGrn returns a boolean if a field has been set.
+func (o *CartCustomerData) IsSetAgentGrn() bool {
 	if o != nil && !IsNil(o.AgentGrn) {
 		return true
 	}

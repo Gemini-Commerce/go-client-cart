@@ -60,8 +60,8 @@ func (o *CartMergeCartsRequest) GetTenantIdOk() (*string, bool) {
 	return o.TenantId, true
 }
 
-// HasTenantId returns a boolean if a field has been set.
-func (o *CartMergeCartsRequest) HasTenantId() bool {
+// IsSetTenantId returns a boolean if a field has been set.
+func (o *CartMergeCartsRequest) IsSetTenantId() bool {
 	if o != nil && !IsNil(o.TenantId) {
 		return true
 	}
@@ -92,8 +92,8 @@ func (o *CartMergeCartsRequest) GetSourceCartIdsOk() ([]string, bool) {
 	return o.SourceCartIds, true
 }
 
-// HasSourceCartIds returns a boolean if a field has been set.
-func (o *CartMergeCartsRequest) HasSourceCartIds() bool {
+// IsSetSourceCartIds returns a boolean if a field has been set.
+func (o *CartMergeCartsRequest) IsSetSourceCartIds() bool {
 	if o != nil && !IsNil(o.SourceCartIds) {
 		return true
 	}
@@ -124,8 +124,8 @@ func (o *CartMergeCartsRequest) GetTargetCartIdOk() (*string, bool) {
 	return o.TargetCartId, true
 }
 
-// HasTargetCartId returns a boolean if a field has been set.
-func (o *CartMergeCartsRequest) HasTargetCartId() bool {
+// IsSetTargetCartId returns a boolean if a field has been set.
+func (o *CartMergeCartsRequest) IsSetTargetCartId() bool {
 	if o != nil && !IsNil(o.TargetCartId) {
 		return true
 	}

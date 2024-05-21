@@ -68,8 +68,8 @@ func (o *CartShipmentData) GetCodeOk() (*string, bool) {
 	return o.Code, true
 }
 
-// HasCode returns a boolean if a field has been set.
-func (o *CartShipmentData) HasCode() bool {
+// IsSetCode returns a boolean if a field has been set.
+func (o *CartShipmentData) IsSetCode() bool {
 	if o != nil && !IsNil(o.Code) {
 		return true
 	}
@@ -100,8 +100,8 @@ func (o *CartShipmentData) GetMethodOk() (*string, bool) {
 	return o.Method, true
 }
 
-// HasMethod returns a boolean if a field has been set.
-func (o *CartShipmentData) HasMethod() bool {
+// IsSetMethod returns a boolean if a field has been set.
+func (o *CartShipmentData) IsSetMethod() bool {
 	if o != nil && !IsNil(o.Method) {
 		return true
 	}
@@ -132,8 +132,8 @@ func (o *CartShipmentData) GetShipmentGrnOk() (*string, bool) {
 	return o.ShipmentGrn, true
 }
 
-// HasShipmentGrn returns a boolean if a field has been set.
-func (o *CartShipmentData) HasShipmentGrn() bool {
+// IsSetShipmentGrn returns a boolean if a field has been set.
+func (o *CartShipmentData) IsSetShipmentGrn() bool {
 	if o != nil && !IsNil(o.ShipmentGrn) {
 		return true
 	}
@@ -164,8 +164,8 @@ func (o *CartShipmentData) GetPayloadOk() (*string, bool) {
 	return o.Payload, true
 }
 
-// HasPayload returns a boolean if a field has been set.
-func (o *CartShipmentData) HasPayload() bool {
+// IsSetPayload returns a boolean if a field has been set.
+func (o *CartShipmentData) IsSetPayload() bool {
 	if o != nil && !IsNil(o.Payload) {
 		return true
 	}
@@ -196,8 +196,8 @@ func (o *CartShipmentData) GetCartItemIdsOk() ([]string, bool) {
 	return o.CartItemIds, true
 }
 
-// HasCartItemIds returns a boolean if a field has been set.
-func (o *CartShipmentData) HasCartItemIds() bool {
+// IsSetCartItemIds returns a boolean if a field has been set.
+func (o *CartShipmentData) IsSetCartItemIds() bool {
 	if o != nil && !IsNil(o.CartItemIds) {
 		return true
 	}
@@ -228,8 +228,8 @@ func (o *CartShipmentData) GetFeeOk() (*CartMoney, bool) {
 	return o.Fee, true
 }
 
-// HasFee returns a boolean if a field has been set.
-func (o *CartShipmentData) HasFee() bool {
+// IsSetFee returns a boolean if a field has been set.
+func (o *CartShipmentData) IsSetFee() bool {
 	if o != nil && !IsNil(o.Fee) {
 		return true
 	}
@@ -260,8 +260,8 @@ func (o *CartShipmentData) GetLabelOk() (*string, bool) {
 	return o.Label, true
 }
 
-// HasLabel returns a boolean if a field has been set.
-func (o *CartShipmentData) HasLabel() bool {
+// IsSetLabel returns a boolean if a field has been set.
+func (o *CartShipmentData) IsSetLabel() bool {
 	if o != nil && !IsNil(o.Label) {
 		return true
 	}
@@ -292,8 +292,8 @@ func (o *CartShipmentData) GetVatAmountOk() (*CartMoney, bool) {
 	return o.VatAmount, true
 }
 
-// HasVatAmount returns a boolean if a field has been set.
-func (o *CartShipmentData) HasVatAmount() bool {
+// IsSetVatAmount returns a boolean if a field has been set.
+func (o *CartShipmentData) IsSetVatAmount() bool {
 	if o != nil && !IsNil(o.VatAmount) {
 		return true
 	}
@@ -324,8 +324,8 @@ func (o *CartShipmentData) GetVatPercentageOk() (*float32, bool) {
 	return o.VatPercentage, true
 }
 
-// HasVatPercentage returns a boolean if a field has been set.
-func (o *CartShipmentData) HasVatPercentage() bool {
+// IsSetVatPercentage returns a boolean if a field has been set.
+func (o *CartShipmentData) IsSetVatPercentage() bool {
 	if o != nil && !IsNil(o.VatPercentage) {
 		return true
 	}
@@ -356,8 +356,8 @@ func (o *CartShipmentData) GetVatInaccurateOk() (*bool, bool) {
 	return o.VatInaccurate, true
 }
 
-// HasVatInaccurate returns a boolean if a field has been set.
-func (o *CartShipmentData) HasVatInaccurate() bool {
+// IsSetVatInaccurate returns a boolean if a field has been set.
+func (o *CartShipmentData) IsSetVatInaccurate() bool {
 	if o != nil && !IsNil(o.VatInaccurate) {
 		return true
 	}
@@ -388,8 +388,8 @@ func (o *CartShipmentData) GetVatCalculatedOk() (*bool, bool) {
 	return o.VatCalculated, true
 }
 
-// HasVatCalculated returns a boolean if a field has been set.
-func (o *CartShipmentData) HasVatCalculated() bool {
+// IsSetVatCalculated returns a boolean if a field has been set.
+func (o *CartShipmentData) IsSetVatCalculated() bool {
 	if o != nil && !IsNil(o.VatCalculated) {
 		return true
 	}

@@ -63,8 +63,8 @@ func (o *CartListCartsRequest) GetTenantIdOk() (*string, bool) {
 	return o.TenantId, true
 }
 
-// HasTenantId returns a boolean if a field has been set.
-func (o *CartListCartsRequest) HasTenantId() bool {
+// IsSetTenantId returns a boolean if a field has been set.
+func (o *CartListCartsRequest) IsSetTenantId() bool {
 	if o != nil && !IsNil(o.TenantId) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *CartListCartsRequest) GetPageSizeOk() (*int64, bool) {
 	return o.PageSize, true
 }
 
-// HasPageSize returns a boolean if a field has been set.
-func (o *CartListCartsRequest) HasPageSize() bool {
+// IsSetPageSize returns a boolean if a field has been set.
+func (o *CartListCartsRequest) IsSetPageSize() bool {
 	if o != nil && !IsNil(o.PageSize) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *CartListCartsRequest) GetPageTokenOk() (*string, bool) {
 	return o.PageToken, true
 }
 
-// HasPageToken returns a boolean if a field has been set.
-func (o *CartListCartsRequest) HasPageToken() bool {
+// IsSetPageToken returns a boolean if a field has been set.
+func (o *CartListCartsRequest) IsSetPageToken() bool {
 	if o != nil && !IsNil(o.PageToken) {
 		return true
 	}
@@ -159,8 +159,8 @@ func (o *CartListCartsRequest) GetSortsOk() ([]ListCartsRequestSort, bool) {
 	return o.Sorts, true
 }
 
-// HasSorts returns a boolean if a field has been set.
-func (o *CartListCartsRequest) HasSorts() bool {
+// IsSetSorts returns a boolean if a field has been set.
+func (o *CartListCartsRequest) IsSetSorts() bool {
 	if o != nil && !IsNil(o.Sorts) {
 		return true
 	}
@@ -191,8 +191,8 @@ func (o *CartListCartsRequest) GetFilterMaskOk() (*string, bool) {
 	return o.FilterMask, true
 }
 
-// HasFilterMask returns a boolean if a field has been set.
-func (o *CartListCartsRequest) HasFilterMask() bool {
+// IsSetFilterMask returns a boolean if a field has been set.
+func (o *CartListCartsRequest) IsSetFilterMask() bool {
 	if o != nil && !IsNil(o.FilterMask) {
 		return true
 	}
@@ -223,8 +223,8 @@ func (o *CartListCartsRequest) GetFilterOk() (*ListCartsRequestFilter, bool) {
 	return o.Filter, true
 }
 
-// HasFilter returns a boolean if a field has been set.
-func (o *CartListCartsRequest) HasFilter() bool {
+// IsSetFilter returns a boolean if a field has been set.
+func (o *CartListCartsRequest) IsSetFilter() bool {
 	if o != nil && !IsNil(o.Filter) {
 		return true
 	}

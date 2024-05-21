@@ -63,8 +63,8 @@ func (o *CartSetCustomPriceOnItemsRequestCartItem) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *CartSetCustomPriceOnItemsRequestCartItem) HasId() bool {
+// IsSetId returns a boolean if a field has been set.
+func (o *CartSetCustomPriceOnItemsRequestCartItem) IsSetId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *CartSetCustomPriceOnItemsRequestCartItem) GetFreeOfChargeOk() (*bool, b
 	return o.FreeOfCharge, true
 }
 
-// HasFreeOfCharge returns a boolean if a field has been set.
-func (o *CartSetCustomPriceOnItemsRequestCartItem) HasFreeOfCharge() bool {
+// IsSetFreeOfCharge returns a boolean if a field has been set.
+func (o *CartSetCustomPriceOnItemsRequestCartItem) IsSetFreeOfCharge() bool {
 	if o != nil && !IsNil(o.FreeOfCharge) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *CartSetCustomPriceOnItemsRequestCartItem) GetUnsetOk() (*bool, bool) {
 	return o.Unset, true
 }
 
-// HasUnset returns a boolean if a field has been set.
-func (o *CartSetCustomPriceOnItemsRequestCartItem) HasUnset() bool {
+// IsSetUnset returns a boolean if a field has been set.
+func (o *CartSetCustomPriceOnItemsRequestCartItem) IsSetUnset() bool {
 	if o != nil && !IsNil(o.Unset) {
 		return true
 	}
@@ -159,8 +159,8 @@ func (o *CartSetCustomPriceOnItemsRequestCartItem) GetCustomPriceRowOk() (*CartM
 	return o.CustomPriceRow, true
 }
 
-// HasCustomPriceRow returns a boolean if a field has been set.
-func (o *CartSetCustomPriceOnItemsRequestCartItem) HasCustomPriceRow() bool {
+// IsSetCustomPriceRow returns a boolean if a field has been set.
+func (o *CartSetCustomPriceOnItemsRequestCartItem) IsSetCustomPriceRow() bool {
 	if o != nil && !IsNil(o.CustomPriceRow) {
 		return true
 	}
@@ -191,8 +191,8 @@ func (o *CartSetCustomPriceOnItemsRequestCartItem) GetCustomPriceUnitOk() (*Cart
 	return o.CustomPriceUnit, true
 }
 
-// HasCustomPriceUnit returns a boolean if a field has been set.
-func (o *CartSetCustomPriceOnItemsRequestCartItem) HasCustomPriceUnit() bool {
+// IsSetCustomPriceUnit returns a boolean if a field has been set.
+func (o *CartSetCustomPriceOnItemsRequestCartItem) IsSetCustomPriceUnit() bool {
 	if o != nil && !IsNil(o.CustomPriceUnit) {
 		return true
 	}
@@ -223,8 +223,8 @@ func (o *CartSetCustomPriceOnItemsRequestCartItem) GetDiscountPercentageOk() (*f
 	return o.DiscountPercentage, true
 }
 
-// HasDiscountPercentage returns a boolean if a field has been set.
-func (o *CartSetCustomPriceOnItemsRequestCartItem) HasDiscountPercentage() bool {
+// IsSetDiscountPercentage returns a boolean if a field has been set.
+func (o *CartSetCustomPriceOnItemsRequestCartItem) IsSetDiscountPercentage() bool {
 	if o != nil && !IsNil(o.DiscountPercentage) {
 		return true
 	}

@@ -79,8 +79,8 @@ func (o *CartCartItem) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *CartCartItem) HasId() bool {
+// IsSetId returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -111,8 +111,8 @@ func (o *CartCartItem) GetProductGrnOk() (*string, bool) {
 	return o.ProductGrn, true
 }
 
-// HasProductGrn returns a boolean if a field has been set.
-func (o *CartCartItem) HasProductGrn() bool {
+// IsSetProductGrn returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetProductGrn() bool {
 	if o != nil && !IsNil(o.ProductGrn) {
 		return true
 	}
@@ -143,8 +143,8 @@ func (o *CartCartItem) GetProductConfigurationOk() ([]CartProductConfigurationSt
 	return o.ProductConfiguration, true
 }
 
-// HasProductConfiguration returns a boolean if a field has been set.
-func (o *CartCartItem) HasProductConfiguration() bool {
+// IsSetProductConfiguration returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetProductConfiguration() bool {
 	if o != nil && !IsNil(o.ProductConfiguration) {
 		return true
 	}
@@ -175,8 +175,8 @@ func (o *CartCartItem) GetQuantityOk() (*int64, bool) {
 	return o.Quantity, true
 }
 
-// HasQuantity returns a boolean if a field has been set.
-func (o *CartCartItem) HasQuantity() bool {
+// IsSetQuantity returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetQuantity() bool {
 	if o != nil && !IsNil(o.Quantity) {
 		return true
 	}
@@ -207,8 +207,8 @@ func (o *CartCartItem) GetPriceOk() (*CartMoney, bool) {
 	return o.Price, true
 }
 
-// HasPrice returns a boolean if a field has been set.
-func (o *CartCartItem) HasPrice() bool {
+// IsSetPrice returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetPrice() bool {
 	if o != nil && !IsNil(o.Price) {
 		return true
 	}
@@ -239,8 +239,8 @@ func (o *CartCartItem) GetListPriceOk() (*CartMoney, bool) {
 	return o.ListPrice, true
 }
 
-// HasListPrice returns a boolean if a field has been set.
-func (o *CartCartItem) HasListPrice() bool {
+// IsSetListPrice returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetListPrice() bool {
 	if o != nil && !IsNil(o.ListPrice) {
 		return true
 	}
@@ -271,8 +271,8 @@ func (o *CartCartItem) GetDiscountOk() (*CartMoney, bool) {
 	return o.Discount, true
 }
 
-// HasDiscount returns a boolean if a field has been set.
-func (o *CartCartItem) HasDiscount() bool {
+// IsSetDiscount returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetDiscount() bool {
 	if o != nil && !IsNil(o.Discount) {
 		return true
 	}
@@ -303,8 +303,8 @@ func (o *CartCartItem) GetBasePriceOk() (*CartMoney, bool) {
 	return o.BasePrice, true
 }
 
-// HasBasePrice returns a boolean if a field has been set.
-func (o *CartCartItem) HasBasePrice() bool {
+// IsSetBasePrice returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetBasePrice() bool {
 	if o != nil && !IsNil(o.BasePrice) {
 		return true
 	}
@@ -335,8 +335,8 @@ func (o *CartCartItem) GetCustomPriceOk() (*CartItemCustomPrice, bool) {
 	return o.CustomPrice, true
 }
 
-// HasCustomPrice returns a boolean if a field has been set.
-func (o *CartCartItem) HasCustomPrice() bool {
+// IsSetCustomPrice returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetCustomPrice() bool {
 	if o != nil && !IsNil(o.CustomPrice) {
 		return true
 	}
@@ -367,8 +367,8 @@ func (o *CartCartItem) GetVatAmountOk() (*CartMoney, bool) {
 	return o.VatAmount, true
 }
 
-// HasVatAmount returns a boolean if a field has been set.
-func (o *CartCartItem) HasVatAmount() bool {
+// IsSetVatAmount returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetVatAmount() bool {
 	if o != nil && !IsNil(o.VatAmount) {
 		return true
 	}
@@ -399,8 +399,8 @@ func (o *CartCartItem) GetVatPercentageOk() (*float32, bool) {
 	return o.VatPercentage, true
 }
 
-// HasVatPercentage returns a boolean if a field has been set.
-func (o *CartCartItem) HasVatPercentage() bool {
+// IsSetVatPercentage returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetVatPercentage() bool {
 	if o != nil && !IsNil(o.VatPercentage) {
 		return true
 	}
@@ -431,8 +431,8 @@ func (o *CartCartItem) GetVatInaccurateOk() (*bool, bool) {
 	return o.VatInaccurate, true
 }
 
-// HasVatInaccurate returns a boolean if a field has been set.
-func (o *CartCartItem) HasVatInaccurate() bool {
+// IsSetVatInaccurate returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetVatInaccurate() bool {
 	if o != nil && !IsNil(o.VatInaccurate) {
 		return true
 	}
@@ -463,8 +463,8 @@ func (o *CartCartItem) GetVatCalculatedOk() (*bool, bool) {
 	return o.VatCalculated, true
 }
 
-// HasVatCalculated returns a boolean if a field has been set.
-func (o *CartCartItem) HasVatCalculated() bool {
+// IsSetVatCalculated returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetVatCalculated() bool {
 	if o != nil && !IsNil(o.VatCalculated) {
 		return true
 	}
@@ -495,8 +495,8 @@ func (o *CartCartItem) GetLocalizedNameOk() (*map[string]string, bool) {
 	return o.LocalizedName, true
 }
 
-// HasLocalizedName returns a boolean if a field has been set.
-func (o *CartCartItem) HasLocalizedName() bool {
+// IsSetLocalizedName returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetLocalizedName() bool {
 	if o != nil && !IsNil(o.LocalizedName) {
 		return true
 	}
@@ -527,8 +527,8 @@ func (o *CartCartItem) GetProductCodeOk() (*string, bool) {
 	return o.ProductCode, true
 }
 
-// HasProductCode returns a boolean if a field has been set.
-func (o *CartCartItem) HasProductCode() bool {
+// IsSetProductCode returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetProductCode() bool {
 	if o != nil && !IsNil(o.ProductCode) {
 		return true
 	}
@@ -559,8 +559,8 @@ func (o *CartCartItem) GetProductSkuOk() (*string, bool) {
 	return o.ProductSku, true
 }
 
-// HasProductSku returns a boolean if a field has been set.
-func (o *CartCartItem) HasProductSku() bool {
+// IsSetProductSku returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetProductSku() bool {
 	if o != nil && !IsNil(o.ProductSku) {
 		return true
 	}
@@ -591,8 +591,8 @@ func (o *CartCartItem) GetImageGrnOk() (*string, bool) {
 	return o.ImageGrn, true
 }
 
-// HasImageGrn returns a boolean if a field has been set.
-func (o *CartCartItem) HasImageGrn() bool {
+// IsSetImageGrn returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetImageGrn() bool {
 	if o != nil && !IsNil(o.ImageGrn) {
 		return true
 	}
@@ -623,8 +623,8 @@ func (o *CartCartItem) GetVariantOptionsOk() (*string, bool) {
 	return o.VariantOptions, true
 }
 
-// HasVariantOptions returns a boolean if a field has been set.
-func (o *CartCartItem) HasVariantOptions() bool {
+// IsSetVariantOptions returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetVariantOptions() bool {
 	if o != nil && !IsNil(o.VariantOptions) {
 		return true
 	}
@@ -655,8 +655,8 @@ func (o *CartCartItem) GetIsVirtualOk() (*bool, bool) {
 	return o.IsVirtual, true
 }
 
-// HasIsVirtual returns a boolean if a field has been set.
-func (o *CartCartItem) HasIsVirtual() bool {
+// IsSetIsVirtual returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetIsVirtual() bool {
 	if o != nil && !IsNil(o.IsVirtual) {
 		return true
 	}
@@ -687,8 +687,8 @@ func (o *CartCartItem) GetPromotionGrnsOk() ([]string, bool) {
 	return o.PromotionGrns, true
 }
 
-// HasPromotionGrns returns a boolean if a field has been set.
-func (o *CartCartItem) HasPromotionGrns() bool {
+// IsSetPromotionGrns returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetPromotionGrns() bool {
 	if o != nil && !IsNil(o.PromotionGrns) {
 		return true
 	}
@@ -719,8 +719,8 @@ func (o *CartCartItem) GetAdditionalInfoOk() (*string, bool) {
 	return o.AdditionalInfo, true
 }
 
-// HasAdditionalInfo returns a boolean if a field has been set.
-func (o *CartCartItem) HasAdditionalInfo() bool {
+// IsSetAdditionalInfo returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetAdditionalInfo() bool {
 	if o != nil && !IsNil(o.AdditionalInfo) {
 		return true
 	}
@@ -751,8 +751,8 @@ func (o *CartCartItem) GetProductDataOk() (*string, bool) {
 	return o.ProductData, true
 }
 
-// HasProductData returns a boolean if a field has been set.
-func (o *CartCartItem) HasProductData() bool {
+// IsSetProductData returns a boolean if a field has been set.
+func (o *CartCartItem) IsSetProductData() bool {
 	if o != nil && !IsNil(o.ProductData) {
 		return true
 	}

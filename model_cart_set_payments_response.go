@@ -58,8 +58,8 @@ func (o *CartSetPaymentsResponse) GetTotalDueOk() (*CartMoney, bool) {
 	return o.TotalDue, true
 }
 
-// HasTotalDue returns a boolean if a field has been set.
-func (o *CartSetPaymentsResponse) HasTotalDue() bool {
+// IsSetTotalDue returns a boolean if a field has been set.
+func (o *CartSetPaymentsResponse) IsSetTotalDue() bool {
 	if o != nil && !IsNil(o.TotalDue) {
 		return true
 	}

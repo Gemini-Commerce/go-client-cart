@@ -58,8 +58,8 @@ func (o *CartListPaymentMethodsResponse) GetPaymentsOk() ([]CartPaymentData, boo
 	return o.Payments, true
 }
 
-// HasPayments returns a boolean if a field has been set.
-func (o *CartListPaymentMethodsResponse) HasPayments() bool {
+// IsSetPayments returns a boolean if a field has been set.
+func (o *CartListPaymentMethodsResponse) IsSetPayments() bool {
 	if o != nil && !IsNil(o.Payments) {
 		return true
 	}

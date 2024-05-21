@@ -59,8 +59,8 @@ func (o *CartListCartsResponse) GetCartsOk() ([]CartCartData, bool) {
 	return o.Carts, true
 }
 
-// HasCarts returns a boolean if a field has been set.
-func (o *CartListCartsResponse) HasCarts() bool {
+// IsSetCarts returns a boolean if a field has been set.
+func (o *CartListCartsResponse) IsSetCarts() bool {
 	if o != nil && !IsNil(o.Carts) {
 		return true
 	}
@@ -91,8 +91,8 @@ func (o *CartListCartsResponse) GetNextPageTokenOk() (*string, bool) {
 	return o.NextPageToken, true
 }
 
-// HasNextPageToken returns a boolean if a field has been set.
-func (o *CartListCartsResponse) HasNextPageToken() bool {
+// IsSetNextPageToken returns a boolean if a field has been set.
+func (o *CartListCartsResponse) IsSetNextPageToken() bool {
 	if o != nil && !IsNil(o.NextPageToken) {
 		return true
 	}

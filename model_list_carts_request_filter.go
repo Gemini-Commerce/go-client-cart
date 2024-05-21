@@ -70,8 +70,8 @@ func (o *ListCartsRequestFilter) GetSearchTermsOk() ([]string, bool) {
 	return o.SearchTerms, true
 }
 
-// HasSearchTerms returns a boolean if a field has been set.
-func (o *ListCartsRequestFilter) HasSearchTerms() bool {
+// IsSetSearchTerms returns a boolean if a field has been set.
+func (o *ListCartsRequestFilter) IsSetSearchTerms() bool {
 	if o != nil && !IsNil(o.SearchTerms) {
 		return true
 	}
@@ -102,8 +102,8 @@ func (o *ListCartsRequestFilter) GetCustomerEmailsOk() ([]string, bool) {
 	return o.CustomerEmails, true
 }
 
-// HasCustomerEmails returns a boolean if a field has been set.
-func (o *ListCartsRequestFilter) HasCustomerEmails() bool {
+// IsSetCustomerEmails returns a boolean if a field has been set.
+func (o *ListCartsRequestFilter) IsSetCustomerEmails() bool {
 	if o != nil && !IsNil(o.CustomerEmails) {
 		return true
 	}
@@ -134,8 +134,8 @@ func (o *ListCartsRequestFilter) GetCustomerFirstnamesOk() ([]string, bool) {
 	return o.CustomerFirstnames, true
 }
 
-// HasCustomerFirstnames returns a boolean if a field has been set.
-func (o *ListCartsRequestFilter) HasCustomerFirstnames() bool {
+// IsSetCustomerFirstnames returns a boolean if a field has been set.
+func (o *ListCartsRequestFilter) IsSetCustomerFirstnames() bool {
 	if o != nil && !IsNil(o.CustomerFirstnames) {
 		return true
 	}
@@ -166,8 +166,8 @@ func (o *ListCartsRequestFilter) GetCustomerLastnamesOk() ([]string, bool) {
 	return o.CustomerLastnames, true
 }
 
-// HasCustomerLastnames returns a boolean if a field has been set.
-func (o *ListCartsRequestFilter) HasCustomerLastnames() bool {
+// IsSetCustomerLastnames returns a boolean if a field has been set.
+func (o *ListCartsRequestFilter) IsSetCustomerLastnames() bool {
 	if o != nil && !IsNil(o.CustomerLastnames) {
 		return true
 	}
@@ -198,8 +198,8 @@ func (o *ListCartsRequestFilter) GetCustomerPhonesOk() ([]string, bool) {
 	return o.CustomerPhones, true
 }
 
-// HasCustomerPhones returns a boolean if a field has been set.
-func (o *ListCartsRequestFilter) HasCustomerPhones() bool {
+// IsSetCustomerPhones returns a boolean if a field has been set.
+func (o *ListCartsRequestFilter) IsSetCustomerPhones() bool {
 	if o != nil && !IsNil(o.CustomerPhones) {
 		return true
 	}
@@ -230,8 +230,8 @@ func (o *ListCartsRequestFilter) GetCartIdsOk() ([]string, bool) {
 	return o.CartIds, true
 }
 
-// HasCartIds returns a boolean if a field has been set.
-func (o *ListCartsRequestFilter) HasCartIds() bool {
+// IsSetCartIds returns a boolean if a field has been set.
+func (o *ListCartsRequestFilter) IsSetCartIds() bool {
 	if o != nil && !IsNil(o.CartIds) {
 		return true
 	}
@@ -262,8 +262,8 @@ func (o *ListCartsRequestFilter) GetCartStatusOk() (*ListCartsRequestFilterCartS
 	return o.CartStatus, true
 }
 
-// HasCartStatus returns a boolean if a field has been set.
-func (o *ListCartsRequestFilter) HasCartStatus() bool {
+// IsSetCartStatus returns a boolean if a field has been set.
+func (o *ListCartsRequestFilter) IsSetCartStatus() bool {
 	if o != nil && !IsNil(o.CartStatus) {
 		return true
 	}
@@ -294,8 +294,8 @@ func (o *ListCartsRequestFilter) GetCreatedAtOk() ([]ListCartsRequestFilterDate,
 	return o.CreatedAt, true
 }
 
-// HasCreatedAt returns a boolean if a field has been set.
-func (o *ListCartsRequestFilter) HasCreatedAt() bool {
+// IsSetCreatedAt returns a boolean if a field has been set.
+func (o *ListCartsRequestFilter) IsSetCreatedAt() bool {
 	if o != nil && !IsNil(o.CreatedAt) {
 		return true
 	}
@@ -326,8 +326,8 @@ func (o *ListCartsRequestFilter) GetAgentGrnOk() (*string, bool) {
 	return o.AgentGrn, true
 }
 
-// HasAgentGrn returns a boolean if a field has been set.
-func (o *ListCartsRequestFilter) HasAgentGrn() bool {
+// IsSetAgentGrn returns a boolean if a field has been set.
+func (o *ListCartsRequestFilter) IsSetAgentGrn() bool {
 	if o != nil && !IsNil(o.AgentGrn) {
 		return true
 	}

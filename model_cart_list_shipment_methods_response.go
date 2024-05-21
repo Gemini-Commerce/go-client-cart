@@ -58,8 +58,8 @@ func (o *CartListShipmentMethodsResponse) GetShipmentsOk() ([]CartShipmentData, 
 	return o.Shipments, true
 }
 
-// HasShipments returns a boolean if a field has been set.
-func (o *CartListShipmentMethodsResponse) HasShipments() bool {
+// IsSetShipments returns a boolean if a field has been set.
+func (o *CartListShipmentMethodsResponse) IsSetShipments() bool {
 	if o != nil && !IsNil(o.Shipments) {
 		return true
 	}

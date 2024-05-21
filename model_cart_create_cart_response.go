@@ -58,8 +58,8 @@ func (o *CartCreateCartResponse) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *CartCreateCartResponse) HasId() bool {
+// IsSetId returns a boolean if a field has been set.
+func (o *CartCreateCartResponse) IsSetId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}

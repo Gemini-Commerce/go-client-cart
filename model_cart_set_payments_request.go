@@ -60,8 +60,8 @@ func (o *CartSetPaymentsRequest) GetTenantIdOk() (*string, bool) {
 	return o.TenantId, true
 }
 
-// HasTenantId returns a boolean if a field has been set.
-func (o *CartSetPaymentsRequest) HasTenantId() bool {
+// IsSetTenantId returns a boolean if a field has been set.
+func (o *CartSetPaymentsRequest) IsSetTenantId() bool {
 	if o != nil && !IsNil(o.TenantId) {
 		return true
 	}
@@ -92,8 +92,8 @@ func (o *CartSetPaymentsRequest) GetCartIdOk() (*string, bool) {
 	return o.CartId, true
 }
 
-// HasCartId returns a boolean if a field has been set.
-func (o *CartSetPaymentsRequest) HasCartId() bool {
+// IsSetCartId returns a boolean if a field has been set.
+func (o *CartSetPaymentsRequest) IsSetCartId() bool {
 	if o != nil && !IsNil(o.CartId) {
 		return true
 	}
@@ -124,8 +124,8 @@ func (o *CartSetPaymentsRequest) GetPaymentsOk() ([]CartPaymentData, bool) {
 	return o.Payments, true
 }
 
-// HasPayments returns a boolean if a field has been set.
-func (o *CartSetPaymentsRequest) HasPayments() bool {
+// IsSetPayments returns a boolean if a field has been set.
+func (o *CartSetPaymentsRequest) IsSetPayments() bool {
 	if o != nil && !IsNil(o.Payments) {
 		return true
 	}

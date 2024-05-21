@@ -60,8 +60,8 @@ func (o *CartUpdateProductsRequestItem) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *CartUpdateProductsRequestItem) HasId() bool {
+// IsSetId returns a boolean if a field has been set.
+func (o *CartUpdateProductsRequestItem) IsSetId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -92,8 +92,8 @@ func (o *CartUpdateProductsRequestItem) GetQuantityOk() (*int64, bool) {
 	return o.Quantity, true
 }
 
-// HasQuantity returns a boolean if a field has been set.
-func (o *CartUpdateProductsRequestItem) HasQuantity() bool {
+// IsSetQuantity returns a boolean if a field has been set.
+func (o *CartUpdateProductsRequestItem) IsSetQuantity() bool {
 	if o != nil && !IsNil(o.Quantity) {
 		return true
 	}
@@ -124,8 +124,8 @@ func (o *CartUpdateProductsRequestItem) GetConfigurationSelectionsOk() ([]CartPr
 	return o.ConfigurationSelections, true
 }
 
-// HasConfigurationSelections returns a boolean if a field has been set.
-func (o *CartUpdateProductsRequestItem) HasConfigurationSelections() bool {
+// IsSetConfigurationSelections returns a boolean if a field has been set.
+func (o *CartUpdateProductsRequestItem) IsSetConfigurationSelections() bool {
 	if o != nil && !IsNil(o.ConfigurationSelections) {
 		return true
 	}

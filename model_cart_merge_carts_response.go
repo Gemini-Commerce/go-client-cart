@@ -58,8 +58,8 @@ func (o *CartMergeCartsResponse) GetCartIdOk() (*string, bool) {
 	return o.CartId, true
 }
 
-// HasCartId returns a boolean if a field has been set.
-func (o *CartMergeCartsResponse) HasCartId() bool {
+// IsSetCartId returns a boolean if a field has been set.
+func (o *CartMergeCartsResponse) IsSetCartId() bool {
 	if o != nil && !IsNil(o.CartId) {
 		return true
 	}

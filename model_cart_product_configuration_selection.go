@@ -59,8 +59,8 @@ func (o *CartProductConfigurationSelection) GetStepGrnOk() (*string, bool) {
 	return o.StepGrn, true
 }
 
-// HasStepGrn returns a boolean if a field has been set.
-func (o *CartProductConfigurationSelection) HasStepGrn() bool {
+// IsSetStepGrn returns a boolean if a field has been set.
+func (o *CartProductConfigurationSelection) IsSetStepGrn() bool {
 	if o != nil && !IsNil(o.StepGrn) {
 		return true
 	}
@@ -91,8 +91,8 @@ func (o *CartProductConfigurationSelection) GetOptionsOk() ([]CartProductConfigu
 	return o.Options, true
 }
 
-// HasOptions returns a boolean if a field has been set.
-func (o *CartProductConfigurationSelection) HasOptions() bool {
+// IsSetOptions returns a boolean if a field has been set.
+func (o *CartProductConfigurationSelection) IsSetOptions() bool {
 	if o != nil && !IsNil(o.Options) {
 		return true
 	}

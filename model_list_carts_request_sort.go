@@ -69,8 +69,8 @@ func (o *ListCartsRequestSort) GetEvaluationOrderOk() (*int64, bool) {
 	return o.EvaluationOrder, true
 }
 
-// HasEvaluationOrder returns a boolean if a field has been set.
-func (o *ListCartsRequestSort) HasEvaluationOrder() bool {
+// IsSetEvaluationOrder returns a boolean if a field has been set.
+func (o *ListCartsRequestSort) IsSetEvaluationOrder() bool {
 	if o != nil && !IsNil(o.EvaluationOrder) {
 		return true
 	}
@@ -101,8 +101,8 @@ func (o *ListCartsRequestSort) GetFieldOk() (*SortSortField, bool) {
 	return o.Field, true
 }
 
-// HasField returns a boolean if a field has been set.
-func (o *ListCartsRequestSort) HasField() bool {
+// IsSetField returns a boolean if a field has been set.
+func (o *ListCartsRequestSort) IsSetField() bool {
 	if o != nil && !IsNil(o.Field) {
 		return true
 	}
@@ -133,8 +133,8 @@ func (o *ListCartsRequestSort) GetOrderOk() (*CartSortOrder, bool) {
 	return o.Order, true
 }
 
-// HasOrder returns a boolean if a field has been set.
-func (o *ListCartsRequestSort) HasOrder() bool {
+// IsSetOrder returns a boolean if a field has been set.
+func (o *ListCartsRequestSort) IsSetOrder() bool {
 	if o != nil && !IsNil(o.Order) {
 		return true
 	}

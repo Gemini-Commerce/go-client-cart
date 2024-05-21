@@ -58,8 +58,8 @@ func (o *CartGetCartResponse) GetCartOk() (*CartCartData, bool) {
 	return o.Cart, true
 }
 
-// HasCart returns a boolean if a field has been set.
-func (o *CartGetCartResponse) HasCart() bool {
+// IsSetCart returns a boolean if a field has been set.
+func (o *CartGetCartResponse) IsSetCart() bool {
 	if o != nil && !IsNil(o.Cart) {
 		return true
 	}

@@ -60,8 +60,8 @@ func (o *CartAddProductsRequestItem) GetProductGrnOk() (*string, bool) {
 	return o.ProductGrn, true
 }
 
-// HasProductGrn returns a boolean if a field has been set.
-func (o *CartAddProductsRequestItem) HasProductGrn() bool {
+// IsSetProductGrn returns a boolean if a field has been set.
+func (o *CartAddProductsRequestItem) IsSetProductGrn() bool {
 	if o != nil && !IsNil(o.ProductGrn) {
 		return true
 	}
@@ -92,8 +92,8 @@ func (o *CartAddProductsRequestItem) GetQuantityOk() (*int64, bool) {
 	return o.Quantity, true
 }
 
-// HasQuantity returns a boolean if a field has been set.
-func (o *CartAddProductsRequestItem) HasQuantity() bool {
+// IsSetQuantity returns a boolean if a field has been set.
+func (o *CartAddProductsRequestItem) IsSetQuantity() bool {
 	if o != nil && !IsNil(o.Quantity) {
 		return true
 	}
@@ -124,8 +124,8 @@ func (o *CartAddProductsRequestItem) GetConfigurationSelectionsOk() ([]CartProdu
 	return o.ConfigurationSelections, true
 }
 
-// HasConfigurationSelections returns a boolean if a field has been set.
-func (o *CartAddProductsRequestItem) HasConfigurationSelections() bool {
+// IsSetConfigurationSelections returns a boolean if a field has been set.
+func (o *CartAddProductsRequestItem) IsSetConfigurationSelections() bool {
 	if o != nil && !IsNil(o.ConfigurationSelections) {
 		return true
 	}

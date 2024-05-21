@@ -64,8 +64,8 @@ func (o *UpdateCartRequestPayload) GetCartStatusOk() (*CartCartStatus, bool) {
 	return o.CartStatus, true
 }
 
-// HasCartStatus returns a boolean if a field has been set.
-func (o *UpdateCartRequestPayload) HasCartStatus() bool {
+// IsSetCartStatus returns a boolean if a field has been set.
+func (o *UpdateCartRequestPayload) IsSetCartStatus() bool {
 	if o != nil && !IsNil(o.CartStatus) {
 		return true
 	}
@@ -96,8 +96,8 @@ func (o *UpdateCartRequestPayload) GetCustomerDataOk() (*CartCustomerData, bool)
 	return o.CustomerData, true
 }
 
-// HasCustomerData returns a boolean if a field has been set.
-func (o *UpdateCartRequestPayload) HasCustomerData() bool {
+// IsSetCustomerData returns a boolean if a field has been set.
+func (o *UpdateCartRequestPayload) IsSetCustomerData() bool {
 	if o != nil && !IsNil(o.CustomerData) {
 		return true
 	}
@@ -128,8 +128,8 @@ func (o *UpdateCartRequestPayload) GetLocaleOk() (*string, bool) {
 	return o.Locale, true
 }
 
-// HasLocale returns a boolean if a field has been set.
-func (o *UpdateCartRequestPayload) HasLocale() bool {
+// IsSetLocale returns a boolean if a field has been set.
+func (o *UpdateCartRequestPayload) IsSetLocale() bool {
 	if o != nil && !IsNil(o.Locale) {
 		return true
 	}

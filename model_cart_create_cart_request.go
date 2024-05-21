@@ -67,8 +67,8 @@ func (o *CartCreateCartRequest) GetTenantIdOk() (*string, bool) {
 	return o.TenantId, true
 }
 
-// HasTenantId returns a boolean if a field has been set.
-func (o *CartCreateCartRequest) HasTenantId() bool {
+// IsSetTenantId returns a boolean if a field has been set.
+func (o *CartCreateCartRequest) IsSetTenantId() bool {
 	if o != nil && !IsNil(o.TenantId) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *CartCreateCartRequest) GetChannelOk() (*string, bool) {
 	return o.Channel, true
 }
 
-// HasChannel returns a boolean if a field has been set.
-func (o *CartCreateCartRequest) HasChannel() bool {
+// IsSetChannel returns a boolean if a field has been set.
+func (o *CartCreateCartRequest) IsSetChannel() bool {
 	if o != nil && !IsNil(o.Channel) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *CartCreateCartRequest) GetMarketOk() (*string, bool) {
 	return o.Market, true
 }
 
-// HasMarket returns a boolean if a field has been set.
-func (o *CartCreateCartRequest) HasMarket() bool {
+// IsSetMarket returns a boolean if a field has been set.
+func (o *CartCreateCartRequest) IsSetMarket() bool {
 	if o != nil && !IsNil(o.Market) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *CartCreateCartRequest) GetLocaleOk() (*string, bool) {
 	return o.Locale, true
 }
 
-// HasLocale returns a boolean if a field has been set.
-func (o *CartCreateCartRequest) HasLocale() bool {
+// IsSetLocale returns a boolean if a field has been set.
+func (o *CartCreateCartRequest) IsSetLocale() bool {
 	if o != nil && !IsNil(o.Locale) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *CartCreateCartRequest) GetCustomerGrnOk() (*string, bool) {
 	return o.CustomerGrn, true
 }
 
-// HasCustomerGrn returns a boolean if a field has been set.
-func (o *CartCreateCartRequest) HasCustomerGrn() bool {
+// IsSetCustomerGrn returns a boolean if a field has been set.
+func (o *CartCreateCartRequest) IsSetCustomerGrn() bool {
 	if o != nil && !IsNil(o.CustomerGrn) {
 		return true
 	}
@@ -227,8 +227,8 @@ func (o *CartCreateCartRequest) GetCurrencyOk() (*CartCurrency, bool) {
 	return o.Currency, true
 }
 
-// HasCurrency returns a boolean if a field has been set.
-func (o *CartCreateCartRequest) HasCurrency() bool {
+// IsSetCurrency returns a boolean if a field has been set.
+func (o *CartCreateCartRequest) IsSetCurrency() bool {
 	if o != nil && !IsNil(o.Currency) {
 		return true
 	}

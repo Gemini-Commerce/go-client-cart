@@ -59,8 +59,8 @@ func (o *CartProductConfigurationSelectionOption) GetGrnOk() (*string, bool) {
 	return o.Grn, true
 }
 
-// HasGrn returns a boolean if a field has been set.
-func (o *CartProductConfigurationSelectionOption) HasGrn() bool {
+// IsSetGrn returns a boolean if a field has been set.
+func (o *CartProductConfigurationSelectionOption) IsSetGrn() bool {
 	if o != nil && !IsNil(o.Grn) {
 		return true
 	}
@@ -91,8 +91,8 @@ func (o *CartProductConfigurationSelectionOption) GetQuantityOk() (*int64, bool)
 	return o.Quantity, true
 }
 
-// HasQuantity returns a boolean if a field has been set.
-func (o *CartProductConfigurationSelectionOption) HasQuantity() bool {
+// IsSetQuantity returns a boolean if a field has been set.
+func (o *CartProductConfigurationSelectionOption) IsSetQuantity() bool {
 	if o != nil && !IsNil(o.Quantity) {
 		return true
 	}

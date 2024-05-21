@@ -65,8 +65,8 @@ func (o *CartProductConfigurationStepOption) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *CartProductConfigurationStepOption) HasId() bool {
+// IsSetId returns a boolean if a field has been set.
+func (o *CartProductConfigurationStepOption) IsSetId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *CartProductConfigurationStepOption) GetGrnOk() (*string, bool) {
 	return o.Grn, true
 }
 
-// HasGrn returns a boolean if a field has been set.
-func (o *CartProductConfigurationStepOption) HasGrn() bool {
+// IsSetGrn returns a boolean if a field has been set.
+func (o *CartProductConfigurationStepOption) IsSetGrn() bool {
 	if o != nil && !IsNil(o.Grn) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *CartProductConfigurationStepOption) GetLabelOk() (*CartLocalizedText, b
 	return o.Label, true
 }
 
-// HasLabel returns a boolean if a field has been set.
-func (o *CartProductConfigurationStepOption) HasLabel() bool {
+// IsSetLabel returns a boolean if a field has been set.
+func (o *CartProductConfigurationStepOption) IsSetLabel() bool {
 	if o != nil && !IsNil(o.Label) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *CartProductConfigurationStepOption) GetPriceVariationOk() (*CartMoney, 
 	return o.PriceVariation, true
 }
 
-// HasPriceVariation returns a boolean if a field has been set.
-func (o *CartProductConfigurationStepOption) HasPriceVariation() bool {
+// IsSetPriceVariation returns a boolean if a field has been set.
+func (o *CartProductConfigurationStepOption) IsSetPriceVariation() bool {
 	if o != nil && !IsNil(o.PriceVariation) {
 		return true
 	}
@@ -193,8 +193,8 @@ func (o *CartProductConfigurationStepOption) GetWeightVariationOk() (*float32, b
 	return o.WeightVariation, true
 }
 
-// HasWeightVariation returns a boolean if a field has been set.
-func (o *CartProductConfigurationStepOption) HasWeightVariation() bool {
+// IsSetWeightVariation returns a boolean if a field has been set.
+func (o *CartProductConfigurationStepOption) IsSetWeightVariation() bool {
 	if o != nil && !IsNil(o.WeightVariation) {
 		return true
 	}
@@ -225,8 +225,8 @@ func (o *CartProductConfigurationStepOption) GetImageOk() (*OptionImage, bool) {
 	return o.Image, true
 }
 
-// HasImage returns a boolean if a field has been set.
-func (o *CartProductConfigurationStepOption) HasImage() bool {
+// IsSetImage returns a boolean if a field has been set.
+func (o *CartProductConfigurationStepOption) IsSetImage() bool {
 	if o != nil && !IsNil(o.Image) {
 		return true
 	}
@@ -257,8 +257,8 @@ func (o *CartProductConfigurationStepOption) GetHasQuantityOk() (*bool, bool) {
 	return o.HasQuantity, true
 }
 
-// HasHasQuantity returns a boolean if a field has been set.
-func (o *CartProductConfigurationStepOption) HasHasQuantity() bool {
+// IsSetHasQuantity returns a boolean if a field has been set.
+func (o *CartProductConfigurationStepOption) IsSetHasQuantity() bool {
 	if o != nil && !IsNil(o.HasQuantity) {
 		return true
 	}
@@ -289,8 +289,8 @@ func (o *CartProductConfigurationStepOption) GetQuantityOk() (*int64, bool) {
 	return o.Quantity, true
 }
 
-// HasQuantity returns a boolean if a field has been set.
-func (o *CartProductConfigurationStepOption) HasQuantity() bool {
+// IsSetQuantity returns a boolean if a field has been set.
+func (o *CartProductConfigurationStepOption) IsSetQuantity() bool {
 	if o != nil && !IsNil(o.Quantity) {
 		return true
 	}

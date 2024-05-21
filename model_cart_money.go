@@ -61,8 +61,8 @@ func (o *CartMoney) GetUnitsOk() (*string, bool) {
 	return o.Units, true
 }
 
-// HasUnits returns a boolean if a field has been set.
-func (o *CartMoney) HasUnits() bool {
+// IsSetUnits returns a boolean if a field has been set.
+func (o *CartMoney) IsSetUnits() bool {
 	if o != nil && !IsNil(o.Units) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *CartMoney) GetMicrosOk() (*int32, bool) {
 	return o.Micros, true
 }
 
-// HasMicros returns a boolean if a field has been set.
-func (o *CartMoney) HasMicros() bool {
+// IsSetMicros returns a boolean if a field has been set.
+func (o *CartMoney) IsSetMicros() bool {
 	if o != nil && !IsNil(o.Micros) {
 		return true
 	}

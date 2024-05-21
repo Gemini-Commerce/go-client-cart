@@ -60,8 +60,8 @@ func (o *CartTriggerRealignmentResponse) GetTenantIdOk() (*string, bool) {
 	return o.TenantId, true
 }
 
-// HasTenantId returns a boolean if a field has been set.
-func (o *CartTriggerRealignmentResponse) HasTenantId() bool {
+// IsSetTenantId returns a boolean if a field has been set.
+func (o *CartTriggerRealignmentResponse) IsSetTenantId() bool {
 	if o != nil && !IsNil(o.TenantId) {
 		return true
 	}
@@ -92,8 +92,8 @@ func (o *CartTriggerRealignmentResponse) GetCartIdOk() (*string, bool) {
 	return o.CartId, true
 }
 
-// HasCartId returns a boolean if a field has been set.
-func (o *CartTriggerRealignmentResponse) HasCartId() bool {
+// IsSetCartId returns a boolean if a field has been set.
+func (o *CartTriggerRealignmentResponse) IsSetCartId() bool {
 	if o != nil && !IsNil(o.CartId) {
 		return true
 	}
@@ -124,8 +124,8 @@ func (o *CartTriggerRealignmentResponse) GetCartUpdatedOk() (*bool, bool) {
 	return o.CartUpdated, true
 }
 
-// HasCartUpdated returns a boolean if a field has been set.
-func (o *CartTriggerRealignmentResponse) HasCartUpdated() bool {
+// IsSetCartUpdated returns a boolean if a field has been set.
+func (o *CartTriggerRealignmentResponse) IsSetCartUpdated() bool {
 	if o != nil && !IsNil(o.CartUpdated) {
 		return true
 	}

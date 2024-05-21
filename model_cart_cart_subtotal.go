@@ -63,8 +63,8 @@ func (o *CartCartSubtotal) GetCodeOk() (*CartSubtotalCode, bool) {
 	return o.Code, true
 }
 
-// HasCode returns a boolean if a field has been set.
-func (o *CartCartSubtotal) HasCode() bool {
+// IsSetCode returns a boolean if a field has been set.
+func (o *CartCartSubtotal) IsSetCode() bool {
 	if o != nil && !IsNil(o.Code) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *CartCartSubtotal) GetValueOk() (*CartMoney, bool) {
 	return o.Value, true
 }
 
-// HasValue returns a boolean if a field has been set.
-func (o *CartCartSubtotal) HasValue() bool {
+// IsSetValue returns a boolean if a field has been set.
+func (o *CartCartSubtotal) IsSetValue() bool {
 	if o != nil && !IsNil(o.Value) {
 		return true
 	}

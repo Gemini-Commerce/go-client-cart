@@ -61,8 +61,8 @@ func (o *CartUpdateCartRequest) GetTenantIdOk() (*string, bool) {
 	return o.TenantId, true
 }
 
-// HasTenantId returns a boolean if a field has been set.
-func (o *CartUpdateCartRequest) HasTenantId() bool {
+// IsSetTenantId returns a boolean if a field has been set.
+func (o *CartUpdateCartRequest) IsSetTenantId() bool {
 	if o != nil && !IsNil(o.TenantId) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *CartUpdateCartRequest) GetCartIdOk() (*string, bool) {
 	return o.CartId, true
 }
 
-// HasCartId returns a boolean if a field has been set.
-func (o *CartUpdateCartRequest) HasCartId() bool {
+// IsSetCartId returns a boolean if a field has been set.
+func (o *CartUpdateCartRequest) IsSetCartId() bool {
 	if o != nil && !IsNil(o.CartId) {
 		return true
 	}
@@ -125,8 +125,8 @@ func (o *CartUpdateCartRequest) GetPayloadOk() (*UpdateCartRequestPayload, bool)
 	return o.Payload, true
 }
 
-// HasPayload returns a boolean if a field has been set.
-func (o *CartUpdateCartRequest) HasPayload() bool {
+// IsSetPayload returns a boolean if a field has been set.
+func (o *CartUpdateCartRequest) IsSetPayload() bool {
 	if o != nil && !IsNil(o.Payload) {
 		return true
 	}
@@ -157,8 +157,8 @@ func (o *CartUpdateCartRequest) GetPayloadMaskOk() (*string, bool) {
 	return o.PayloadMask, true
 }
 
-// HasPayloadMask returns a boolean if a field has been set.
-func (o *CartUpdateCartRequest) HasPayloadMask() bool {
+// IsSetPayloadMask returns a boolean if a field has been set.
+func (o *CartUpdateCartRequest) IsSetPayloadMask() bool {
 	if o != nil && !IsNil(o.PayloadMask) {
 		return true
 	}

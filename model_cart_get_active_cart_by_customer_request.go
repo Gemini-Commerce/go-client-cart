@@ -66,8 +66,8 @@ func (o *CartGetActiveCartByCustomerRequest) GetTenantIdOk() (*string, bool) {
 	return o.TenantId, true
 }
 
-// HasTenantId returns a boolean if a field has been set.
-func (o *CartGetActiveCartByCustomerRequest) HasTenantId() bool {
+// IsSetTenantId returns a boolean if a field has been set.
+func (o *CartGetActiveCartByCustomerRequest) IsSetTenantId() bool {
 	if o != nil && !IsNil(o.TenantId) {
 		return true
 	}
@@ -98,8 +98,8 @@ func (o *CartGetActiveCartByCustomerRequest) GetCustomerGrnOk() (*string, bool) 
 	return o.CustomerGrn, true
 }
 
-// HasCustomerGrn returns a boolean if a field has been set.
-func (o *CartGetActiveCartByCustomerRequest) HasCustomerGrn() bool {
+// IsSetCustomerGrn returns a boolean if a field has been set.
+func (o *CartGetActiveCartByCustomerRequest) IsSetCustomerGrn() bool {
 	if o != nil && !IsNil(o.CustomerGrn) {
 		return true
 	}
@@ -130,8 +130,8 @@ func (o *CartGetActiveCartByCustomerRequest) GetChannelOk() (*string, bool) {
 	return o.Channel, true
 }
 
-// HasChannel returns a boolean if a field has been set.
-func (o *CartGetActiveCartByCustomerRequest) HasChannel() bool {
+// IsSetChannel returns a boolean if a field has been set.
+func (o *CartGetActiveCartByCustomerRequest) IsSetChannel() bool {
 	if o != nil && !IsNil(o.Channel) {
 		return true
 	}
@@ -162,8 +162,8 @@ func (o *CartGetActiveCartByCustomerRequest) GetMarketOk() (*string, bool) {
 	return o.Market, true
 }
 
-// HasMarket returns a boolean if a field has been set.
-func (o *CartGetActiveCartByCustomerRequest) HasMarket() bool {
+// IsSetMarket returns a boolean if a field has been set.
+func (o *CartGetActiveCartByCustomerRequest) IsSetMarket() bool {
 	if o != nil && !IsNil(o.Market) {
 		return true
 	}
@@ -194,8 +194,8 @@ func (o *CartGetActiveCartByCustomerRequest) GetCurrencyOk() (*CartCurrency, boo
 	return o.Currency, true
 }
 
-// HasCurrency returns a boolean if a field has been set.
-func (o *CartGetActiveCartByCustomerRequest) HasCurrency() bool {
+// IsSetCurrency returns a boolean if a field has been set.
+func (o *CartGetActiveCartByCustomerRequest) IsSetCurrency() bool {
 	if o != nil && !IsNil(o.Currency) {
 		return true
 	}

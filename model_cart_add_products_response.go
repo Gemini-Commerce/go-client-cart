@@ -58,8 +58,8 @@ func (o *CartAddProductsResponse) GetItemsOk() ([]CartAddProductsResponseItem, b
 	return o.Items, true
 }
 
-// HasItems returns a boolean if a field has been set.
-func (o *CartAddProductsResponse) HasItems() bool {
+// IsSetItems returns a boolean if a field has been set.
+func (o *CartAddProductsResponse) IsSetItems() bool {
 	if o != nil && !IsNil(o.Items) {
 		return true
 	}

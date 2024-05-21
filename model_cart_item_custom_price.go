@@ -59,8 +59,8 @@ func (o *CartItemCustomPrice) GetPriceOk() (*CartMoney, bool) {
 	return o.Price, true
 }
 
-// HasPrice returns a boolean if a field has been set.
-func (o *CartItemCustomPrice) HasPrice() bool {
+// IsSetPrice returns a boolean if a field has been set.
+func (o *CartItemCustomPrice) IsSetPrice() bool {
 	if o != nil && !IsNil(o.Price) {
 		return true
 	}
@@ -91,8 +91,8 @@ func (o *CartItemCustomPrice) GetPreviousPriceOk() (*CartMoney, bool) {
 	return o.PreviousPrice, true
 }
 
-// HasPreviousPrice returns a boolean if a field has been set.
-func (o *CartItemCustomPrice) HasPreviousPrice() bool {
+// IsSetPreviousPrice returns a boolean if a field has been set.
+func (o *CartItemCustomPrice) IsSetPreviousPrice() bool {
 	if o != nil && !IsNil(o.PreviousPrice) {
 		return true
 	}

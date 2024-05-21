@@ -60,8 +60,8 @@ func (o *CartRemoveCouponsRequest) GetTenantIdOk() (*string, bool) {
 	return o.TenantId, true
 }
 
-// HasTenantId returns a boolean if a field has been set.
-func (o *CartRemoveCouponsRequest) HasTenantId() bool {
+// IsSetTenantId returns a boolean if a field has been set.
+func (o *CartRemoveCouponsRequest) IsSetTenantId() bool {
 	if o != nil && !IsNil(o.TenantId) {
 		return true
 	}
@@ -92,8 +92,8 @@ func (o *CartRemoveCouponsRequest) GetCartIdOk() (*string, bool) {
 	return o.CartId, true
 }
 
-// HasCartId returns a boolean if a field has been set.
-func (o *CartRemoveCouponsRequest) HasCartId() bool {
+// IsSetCartId returns a boolean if a field has been set.
+func (o *CartRemoveCouponsRequest) IsSetCartId() bool {
 	if o != nil && !IsNil(o.CartId) {
 		return true
 	}
@@ -124,8 +124,8 @@ func (o *CartRemoveCouponsRequest) GetCouponCodesOk() ([]string, bool) {
 	return o.CouponCodes, true
 }
 
-// HasCouponCodes returns a boolean if a field has been set.
-func (o *CartRemoveCouponsRequest) HasCouponCodes() bool {
+// IsSetCouponCodes returns a boolean if a field has been set.
+func (o *CartRemoveCouponsRequest) IsSetCouponCodes() bool {
 	if o != nil && !IsNil(o.CouponCodes) {
 		return true
 	}
